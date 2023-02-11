@@ -92,7 +92,7 @@ class Aplicacion():
         #Etiquetas
         self.error=Label(self.raiz,text= 'Visualizacion de Errores\n(Try and Except)',fg='white',bg='black',font=('Calibri',20),width=31,height=7) #definmos etiqueta y tamano
         self.error.place(x=300,y=35) #posicionamos
-        imagen = PhotoImage(file=r'Tkinter\dorna.png')#definimos imagen
+        imagen = PhotoImage(file=r'app_dorna\dorna.png')#definimos imagen
         self.robot_view = Label(self.raiz,image = imagen,width=440,height=380)#creamos etiqueta para imagen 
         self.robot_view.place(x=300,y=280)#posicionamos
         #lista desplegable
