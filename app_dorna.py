@@ -144,7 +144,7 @@ class Aplicacion():
         self.button_start.place(x = 30,y = 450)
         self.button_stop.place(x = 110,y = 450)
         self.button_reset.place(x = 190,y = 450)
-        self.button_zero_set.place(x = 190,y = 500)
+        self.button_zero_set.place(x = 110,y = 500)
         self.button_set_vel.place(x = 190,y = 235)
         self.button_set_acc.place(x = 190,y = 305)
         self.button_set_tor.place(x = 190,y = 375)
